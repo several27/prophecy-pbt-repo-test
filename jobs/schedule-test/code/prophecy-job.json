@@ -5,7 +5,7 @@
     "jobId" : "2867/jobs/schedule-test",
     "name" : "schedule-test",
     "schedule" : "0 0 0/1 * * ? *",
-    "enabled" : false,
+    "enabled" : true,
     "defaultClusterSize" : "Small",
     "alerting" : {
       "emails" : "maciej@prophecy.io",

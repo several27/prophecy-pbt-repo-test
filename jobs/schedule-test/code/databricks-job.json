@@ -66,7 +66,7 @@
       "schedule" : {
         "quartz_cron_expression" : "0 0 0/1 * * ? *",
         "timezone_id" : "GMT",
-        "pause_status" : "PAUSED"
+        "pause_status" : "UNPAUSED"
       }
     }
   },

@@ -65,7 +65,7 @@ jobs:
       clusterMode:
         Multi: {}
       clusterId: null
-    enabled: null
+    enabled: true
     createdAt: '2022-08-24 11:59:05'
     author: maciej@prophecy.io
 libraries: []
