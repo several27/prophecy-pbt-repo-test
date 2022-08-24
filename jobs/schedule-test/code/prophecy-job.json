@@ -1,0 +1,111 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "2",
+    "jobId" : "2867/jobs/schedule-test",
+    "name" : "schedule-test",
+    "schedule" : "0 0 0/1 * * ? *",
+    "enabled" : false,
+    "defaultClusterSize" : "Small",
+    "alerting" : {
+      "emails" : "maciej@prophecy.io",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    },
+    "processDefaultSettings" : {
+      "type" : "Inherited",
+      "retries" : 0,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      }
+    },
+    "availableFabrics" : [ {
+      "id" : "447",
+      "name" : "new_fabric",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      }
+    }, {
+      "id" : "382",
+      "name" : "demos",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small", "test" ]
+      }
+    }, {
+      "id" : "445",
+      "name" : "e2demo",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      }
+    }, {
+      "id" : "788",
+      "name" : "dev_maciej",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small", "medium" ]
+      }
+    }, {
+      "id" : "2",
+      "name" : "dev",
+      "clusterSizes" : {
+        "default" : "Small",
+        "availableClusterSizes" : [ "Small" ]
+      }
+    }, {
+      "id" : "446",
+      "name" : "dev",
+      "clusterSizes" : {
+        "default" : "Small",
+        "availableClusterSizes" : [ "Small" ]
+      }
+    }, {
+      "id" : "603",
+      "name" : "ScottProd",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      }
+    } ]
+  },
+  "processes" : {
+    "LanXGkgF_MCjhFm29D3sD" : {
+      "id" : "LanXGkgF_MCjhFm29D3sD",
+      "component" : "Pipeline",
+      "metadata" : {
+        "label" : "test-pipeline",
+        "slug" : "test-pipeline",
+        "x" : 100,
+        "y" : 100
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "out"
+        } ]
+      },
+      "settings" : {
+        "type" : "Inherited",
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false
+        }
+      },
+      "properties" : {
+        "pipelineId" : "2867/pipelines/test-pipeline",
+        "configurations" : [ ]
+      }
+    }
+  },
+  "connections" : [ ]
+}
